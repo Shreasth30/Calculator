@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue" , sans-serif;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(135deg, #434343 10%, #201a1a 100%); */
+    background-image: linear-gradient(135deg, #434343 10%, #000000 100%);
+}
+button{
+
+    border:none;
+    width:60px;
+    height:60px;
+    margin:10px;
+    font-size: 25px;
+    border-radius: 50%;
+    background:transparent;
+    color: #f2f2f2;
+    cursor: pointer;
+    box-shadow: -5px -6px 15px rgba(255,255,255, 0.3);
+    
+}
+input{
+    width: 320px;
+    padding: 24px;
+    margin:10px;
+    background: transparent;
+    justify-content: center;
+    text-align: right;
+    font-size: 40px;
+    border-radius: 15px;
+    color: #f2f2f2;
+}
+input::placeholder{
+    color: #f2f2f2;
+}
+.allclr{
+    background-color: rgba(244, 5, 5, 0.605);
+}
+
+.operator{
+    color: green;
+}
+/* .equalto{
+    background-color: sandybrown;
+    border-radius: 0%;
+    
+} */
+.equalto {
+    color: #fdfdfd;
+    transition: all 0.5s;
+    position: relative;
+    border-radius: 50%;
+    background-color: rgba(237, 95, 0, 0.992);
+  }
+.equalto:hover {
+    background-color: rgba(23, 21, 20, 0.886);
+  }
+.dlt{
+    background-color: rgba(244, 72, 5, 0.605);
+}
+.calculator{
+    box-shadow: -1px 1px 9px rgba(231, 193, 4, 0.7);
+    border-radius: 15px;
+    padding: 10px;
+    margin:20px;
+
+}
+
+h4{
+    position: absolute;
+    right:2px;
+    bottom:2px;
+    color: #f2f2f2;
+    font-size: 25px;
+    font-family: "bebas neue" , sans-serif;
+
+}
