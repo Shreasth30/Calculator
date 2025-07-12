@@ -15,7 +15,7 @@ A simple, stylish calculator web app built using **HTML**, **CSS**, and **JavaSc
 
 ## 🖥️ Live Preview
 
-*(Optional: Add GitHub Pages link here if deployed)*
+(https://shreasth30.github.io/Calculator/)
 
 ## 📂 Project Structure
 
@@ -25,9 +25,6 @@ A simple, stylish calculator web app built using **HTML**, **CSS**, and **JavaSc
 - CSS3 (with Google Fonts)
 - Vanilla JavaScript (No external libraries)
 
-## 📸 Screenshots
-
-*(Optional: Add a screenshot of your calculator here)*
 
 ## 🔧 How It Works
 
